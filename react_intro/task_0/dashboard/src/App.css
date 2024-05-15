@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS';
 }
 
@@ -31,6 +30,5 @@
 }
 .App-footer {
   display: flex;
-  justify-content: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, cursive;
+  justify-content: center;  
 }

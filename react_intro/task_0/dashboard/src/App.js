@@ -9,23 +9,19 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1 className="Header-Title">School dashboard</h1>
       </header>
-    </div>
-    <hr className='Div-Separator'/>
-    <div>
-      <header className="App-body">
+      <hr className='Div-Separator'/>
+      <body className="App-body">
         <p>
           Login to access the full dashboard
         </p>
-      </header>
-    </div>
-    <hr className='Div-Separator'/>
-    <div>
-      <header className="App-footer">
+      </body>
+      <hr className='Div-Separator'/>
+      <footer className="App-footer">
         <p>
           Copyright 2024 - holberton School
         </p>
-      </header>
-    </div>
+      </footer>
+      </div>
     </>
   );
 }
