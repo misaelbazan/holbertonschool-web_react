@@ -1,0 +1,48 @@
+.App {
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS';
+}
+
+.App-logo {
+  height: 25vmin;
+  display: flex;
+}
+
+.App-header {
+  display: flex;
+  min-height: 7vh;
+  flex-direction: row;
+  font-size: calc(7px + 1vmin);
+  color: #ED2939;
+  align-items: center;
+  padding: 0.2rem;
+}
+.Div-Separator {
+  display: flex;
+  width: 96%;
+  height: 0.055cm;
+  border: none;
+  border-color: #ED2939;
+  background-color: #ED2939;
+}
+.App-body {
+  margin: 2.5rem;
+  min-height: 70vh;
+}
+.Login-Interface {
+  display: flex;
+}
+.Login-Interface label {
+  padding-right: 7px;
+}
+.Login-Interface input {
+  margin-right: 9px;
+}
+.Login-Interface button {
+  background: none;
+  border-color: #F0f0f0;
+  border-radius: 5px;
+}
+.App-footer {
+  display: flex;
+  justify-content: center;  
+}
