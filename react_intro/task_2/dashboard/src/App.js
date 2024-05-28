@@ -12,7 +12,7 @@ function App() {
         	</h1>
       	</header>
 		<div className="App-separator"></div>
-		<body className="App-body">
+		<div className="App-body">
 			<p>
 				Login to acces the full dashboard
 			</p>
@@ -23,7 +23,7 @@ function App() {
 				<input type='password' id='pass'></input>
 				<button type='button'>OK</button>
 			</form>
-		</body>
+		</div>
 		<div className="App-separator"></div>
 		<footer className="App-footer">
 			<p>Copyright {getFullYear()} - {getFooterCopy(true)}</p>
