@@ -1,48 +1,50 @@
-.App {
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS';
-}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-.App-logo {
-  height: 25vmin;
-  display: flex;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .App-header {
-  display: flex;
-  min-height: 7vh;
-  flex-direction: row;
-  font-size: calc(7px + 1vmin);
-  color: #ED2939;
-  align-items: center;
-  padding: 0.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
 }
-.Div-Separator {
-  display: flex;
-  width: 96%;
-  height: 0.055cm;
-  border: none;
-  border-color: #ED2939;
-  background-color: #ED2939;
+
+.App-header .App-logo {
+    width: 160px;
+    max-width: 25vh;
+    margin-right: 10px;
 }
+
+h1 {
+    margin-bottom: 0;
+    color: #EF4848;
+}
+
 .App-body {
-  margin: 2.5rem;
-  min-height: 70vh;
+    flex: 1;
+    padding: 20px;
+    margin-left: 30px;
+    min-height: 90vh;
 }
-.Login-Interface {
-  display: flex;
-}
-.Login-Interface label {
-  padding-right: 7px;
-}
-.Login-Interface input {
-  margin-right: 9px;
-}
-.Login-Interface button {
-  background: none;
-  border-color: #F0f0f0;
-  border-radius: 5px;
-}
+
 .App-footer {
-  display: flex;
-  justify-content: center;  
+    text-align: center;
+    padding: 10px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.App-separator {
+    width: 95%;
+    height: 3px;
+    background-color: #EF4848;
+    margin: 0 auto;
 }
