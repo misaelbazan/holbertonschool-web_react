@@ -14,7 +14,7 @@ function App() {
 		<div className="App-separator"></div>
 		<div className="App-body">
 			<p>
-				Login to acces the full dashboard
+				Login to access the full dashboard
 			</p>
 			<form>
 				<label htmlFor='email'>Email:</label>
