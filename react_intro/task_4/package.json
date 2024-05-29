@@ -1,7 +1,8 @@
 {
-  "name": "dashboard",
+  "name": "task_4",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://misaelbazan.github.io/holbertonschool-web_react/task_4",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -15,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -36,7 +39,6 @@
     ]
   },
   "devDependencies": {
-    "@wojtekmaj/enzyme-adapter-react-17": "^0.8.0",
-    "enzyme": "^3.11.0"
+    "gh-pages": "^6.1.1"
   }
 }
