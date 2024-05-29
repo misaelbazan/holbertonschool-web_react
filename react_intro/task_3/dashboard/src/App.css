@@ -13,13 +13,13 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 .App-header .App-logo {
     width: 160px;
-    max-width: 25vh;
-    margin-right: 10px;
+    max-width: 30vh;
+    padding-left: 30px;
 }
 
 h1 {
@@ -34,17 +34,22 @@ h1 {
     min-height: 90vh;
 }
 
+.App-body input {
+    margin: auto 12px;
+}
+
 .App-footer {
     text-align: center;
-    padding: 10px;
+    padding: auto   ;
     font-family: "Cormorant Garamond", serif;
     font-weight: 600;
     font-style: italic;
+    font-size: 18px;
 }
 
 .App-separator {
     width: 95%;
-    height: 3px;
+    height: 4px;
     background-color: #EF4848;
     margin: 0 auto;
 }
