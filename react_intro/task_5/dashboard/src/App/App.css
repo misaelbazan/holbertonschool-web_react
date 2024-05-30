@@ -20,6 +20,7 @@ body {
     width: 160px;
     max-width: 30vh;
     padding-left: 30px;
+    padding-right: 0.5rem;
 }
 
 h1 {

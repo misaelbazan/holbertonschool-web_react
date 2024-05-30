@@ -1,6 +1,6 @@
 import './Notifications.css';
 import React from 'react';
-import { getLatestNotification } from './utils'
+import { getLatestNotification } from '../utils/utils';
 
 export default function Notifications() {
     return (
@@ -19,9 +19,9 @@ export default function Notifications() {
             </ul>
             <button
                 style={{
-                    position: 'absolute',
-                    top: '10px',
-                    right: '10px',
+                    position: 'relative',
+                    left: '98%',
+                    bottom: '8.5rem',
                     border: 'none',
                     background: 'transparent',
                     cursor: 'pointer',
@@ -31,5 +31,5 @@ export default function Notifications() {
                 onClick={() => console.log('Close button has been clicked')}
             >x</button>
         </div>
-    )
-}
+    );
+};
