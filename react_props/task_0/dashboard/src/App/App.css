@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 0;
+    color: #EF4848;
+}
+
+.App-body {
+    flex: 1;
+    padding: 20px;
+    margin-left: 30px;
+    min-height: 90vh;
+}
+
+.App-separator {
+    width: 95%;
+    height: 4px;
+    background-color: #EF4848;
+    margin: 0 auto;
+}
