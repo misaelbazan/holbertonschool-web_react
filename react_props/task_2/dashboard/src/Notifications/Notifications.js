@@ -17,8 +17,8 @@ function Notifications() {
             <button
                 style={{
                     position: 'relative',
-                    left: '98%',
-                    bottom: '8.5rem',
+                    left: '97%',
+                    top: '-20vh',
                     border: 'none',
                     background: 'transparent',
                     cursor: 'pointer',
