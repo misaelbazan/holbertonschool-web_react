@@ -1,0 +1,47 @@
+.menuItem {
+    position: absolute;
+    top: 1.5vh;
+    right: 7vh;
+}
+.Notifications {
+    position: absolute;
+    top: 8.5vh;
+    right: 7vh;
+    border: none; /* Remove border */
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.1); /* Add box shadow */ 
+    padding: 0.5rem;  /* Adjust padding */
+    width: 28%; /* Set width */
+    border-radius: 5px; /* Add border radius */
+}
+
+.Notifications p:first-child  {
+    font-weight: bold; /* Make first paragraph bold */
+    font-size: 1rem; /* Increase font size */
+    margin-bottom: 0.8rem; /* Add margin bottom */
+}
+
+.Notifications ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Remove default list style */
+}
+
+.Notifications li {
+    font-size: 0.9rem;
+    padding: 0.35rem 0.5rem; /* Add padding to list items */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Add border bottom */
+    display: flex; /* Make list items flexbox */
+    justify-content: space-evenly; /* Align items between */
+}
+
+.Notifications li:last-child {
+    border-bottom: none; /* Remove border bottom from last item */
+    padding-bottom: 0.1px;
+}
+
+.Notifications li[data-notification-type="default"] {
+    color: blue;
+}
+.Notifications li[data-notification-type="urgent"] {
+    color: red;
+}
