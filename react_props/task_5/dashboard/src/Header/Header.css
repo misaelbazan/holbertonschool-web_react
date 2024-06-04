@@ -1,0 +1,15 @@
+.App-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    margin-top: 2rem;
+    margin-bottom: .3rem;
+}
+
+.App-header .App-logo {
+    width: 162px;
+    max-width: 35vh;
+    padding-left: 30px;
+    padding-right: 0.5rem;
+}
