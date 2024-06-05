@@ -29,7 +29,11 @@ class App extends React.Component {
 				<Header />
 				<div className="App-separator"></div>
 				<div className="App-body">
-					{this.props.isLoggedIn ? <CourseList listCourses={this.listCourses} /> : <Login />}
+					{this.props.isLoggedIn ? (
+					<CourseList listCourses={this.listCourses} /> 
+					) : ( 
+					<Login />
+					)}
 				</div>
 				<div className="App-separator"></div>
 				<Footer />
