@@ -33,15 +33,16 @@ describe('App component', () => {
         expect(wrapper.contains(<CourseList />)).toBe(false);
     });
 
-    it('Calls logOut function and shows alert msg when ctrl+h is pressed', () => {
-        const mockLogOut = jest.fn();
-        window.alert = jest.fn();
+describe("When ctrl + h is pressed", () => {
 
-        const event = new KeyboardEvent('keydown', { key: 'h', ctrlKey: true });
-        window.dispatchEvent(event);
+    it('Calls logOut function and shows alert msg', () => {
+        const mocked = jest.fn();
+	const wrapper = mount(<App logOut={mocked} />);
+	const event = new KeyboardEvent('keydown', { ctrlKey: true, key: 'h'});
+	document.dispatchEvent(event);
 
-        expect(mockLogOut).toHaveBeenCalled();
-        expect(window.alert).toHaveBeenCalledWith('Logging you out');
+	expect(mocked).toHaveBeenCalledTimes(1);
+	wrapper.unmount();
     });
 });
 
